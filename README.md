@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Sistema Solar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um projeto para exibir informações sobre os planetas do sistema solar e missões espaciais.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Sistema Solar](#sistema-solar)
+  - [Índice](#índice)
+  - [Sobre](#sobre)
+  - [Requisitos](#requisitos)
+  - [Instalação](#instalação)
+  - [Como Usar](#como-usar)
+  - [Tecnologias](#tecnologias)
 
-### `npm start`
+## Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido como uma atividade prática para aprendizado de React. Ele exibe informações sobre os planetas do sistema solar e uma lista de missões espaciais que exploraram esses planetas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requisitos
 
-### `npm test`
+Para rodar este projeto localmente, você precisa ter instalado:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/get-npm) (incluso no Node.js)
 
-### `npm run build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para instalar e executar este projeto, siga os passos abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/mateusmsf94/sistema-solar.git
+```
 
-### `npm run eject`
+2. Entre no diretório do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd sistema-solar
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale as dependências:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Execute o projeto:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O projeto estará disponível em `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Usar
 
-### Code Splitting
+Ao acessar o projeto, você verá a lista de planetas do sistema solar, bem como informações sobre missões espaciais que exploraram esses planetas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tecnologias
 
-### Analyzing the Bundle Size
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React](https://reactjs.org/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- Tailwind CSS
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
